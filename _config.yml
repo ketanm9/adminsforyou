@@ -1,3 +1,40 @@
 title: "AdminForYou"
 description: "Microsoft-focused blogs and resources."
+url: "https://ketanm9.github.io/adminforyou"
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Plugins for SEO and Sitemap
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Navigation menu
+nav:
+  - title: "Home"
+    url: /
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/
+
+# Author info
+author:
+  name: "Ketan Morgaonkar"
+  bio: "Sharing insights on Microsoft technologies."
+  avatar: "/assets/images/logo.png"
+
+# Logo
+logo: "/assets/images/logo.png"
+
+# Social links
+social:
+  - title: "GitHub"
+    url: "https://github.com/ketanm9"
+
+# Google Analytics (replace with your ID)
+google_analytics: G-XXXXXXXXXX
+
+# Markdown settings
+markdown: kramdown
 theme: minima
