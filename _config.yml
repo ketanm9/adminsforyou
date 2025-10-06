@@ -27,6 +27,9 @@ author:
 # Logo
 logo: "/assets/images/logo.png"
 
+# Favicon
+favicon: "/favicon.ico"
+
 # Social links
 social:
   - title: "GitHub"
