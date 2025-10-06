@@ -41,3 +41,4 @@ google_analytics: G-XXXXXXXXXX
 # Markdown settings
 markdown: kramdown
 theme: minima
+
