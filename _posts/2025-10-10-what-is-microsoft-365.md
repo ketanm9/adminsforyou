@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is Microsoft 365? Complete Overview"
-date: 2025-10-15
+date: 2025-10-10
 categories: [Microsoft 365, Overview]
 ---
 
