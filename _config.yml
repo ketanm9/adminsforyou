@@ -1,16 +1,28 @@
+# -----------------------------
+# Site settings
+# -----------------------------
 title: "AdminForYou"
-description: "Microsoft-focused blogs and resources."
-url: "https://ketanm9.github.io/adminforyou"
-remote_theme: "mmistakes/minimal-mistakes"
+description: "M365 Admin Lab — Microsoft-focused blogs, scripts, and resources."
+url: "https://ketanm9.github.io"          # Your GitHub Pages domain
+baseurl: "/adminsforyou"                 # Repo name (important!)
 
-# Plugins for SEO and Sitemap
+# Use Minimal Mistakes theme (remote)
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+# -----------------------------
+# Plugins
+# -----------------------------
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
   - jekyll-include-cache
-  
 
-# Navigation menu
+# -----------------------------
+# Navigation (uses _data/navigation.yml)
+# -----------------------------
+# You can remove this block later if you move links into _data/navigation.yml
 nav:
   - title: "Home"
     url: /
@@ -20,29 +32,62 @@ nav:
     url: /about/
   - title: "Resources"
     url: /resources/
+  - title: "Contact"
+    url: /contact/
 
-# Author info
+# -----------------------------
+# Author Info
+# -----------------------------
 author:
   name: "Ketan Morgaonkar"
-  bio: "Sharing insights on Microsoft technologies."
+  bio: "Microsoft 365 Admin | Sharing insights, guides, and automation scripts."
   avatar: "/assets/images/logo.png"
 
-# Logo
+# -----------------------------
+# Appearance / Brand
+# -----------------------------
 logo: "/assets/images/logo.png"
-
-# Favicon
 favicon: "/favicon.ico"
 
-# Social links
+# Optional color or skin (you can try: "air", "mint", "contrast", "dirt", etc.)
+minimal_mistakes_skin: "air"
+
+# -----------------------------
+# Social Links
+# -----------------------------
 social:
   - title: "GitHub"
+    icon: "fab fa-github"
     url: "https://github.com/ketanm9"
+  - title: "LinkedIn"
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/ketanm9"
 
-# Google Analytics (replace with your ID)
+# -----------------------------
+# Google Analytics
+# -----------------------------
 google_analytics: G-XXXXXXXXXX
 
-# Markdown settings
+# -----------------------------
+# Markdown / Defaults
+# -----------------------------
 markdown: kramdown
-theme: minima
+kramdown:
+  input: GFM
 
-
+# Default layouts for pages and posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
