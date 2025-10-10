@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Add Users and Groups in Microsoft 365 Admin Center"
-date: 2025-10-17
+date: 2025-10-10
 categories: [Microsoft 365, Administration]
 ---
 
