@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ketanm9.github.io/adminforyou/sitemap.xml
