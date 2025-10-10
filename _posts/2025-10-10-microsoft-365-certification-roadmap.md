@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Microsoft 365 Certification Roadmap: Where to Start?"
-date: 2025-10-16
+date: 2025-10-10
 categories: [Microsoft 365, Certifications]
 ---
 
