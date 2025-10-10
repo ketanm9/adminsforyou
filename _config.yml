@@ -18,6 +18,8 @@ nav:
     url: /blog/
   - title: "About"
     url: /about/
+  - title: "Resources"
+    url: /resources/
 
 # Author info
 author:
