@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Assign Licenses in Microsoft 365 + License Types Explained"
-date: 2025-10-18
+date: 2025-10-10
 categories: [Microsoft 365, Licensing]
 ---
 
