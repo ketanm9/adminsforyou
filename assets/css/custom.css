@@ -1,62 +1,94 @@
-/* --- Global background and text --- */
+/* ===========================
+   AdminForYou Custom Styling
+   =========================== */
+
+/* ----- Background gradient ----- */
 body {
-  background: #f6f8fa;
-  color: #222;
+  background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+  font-family: "Segoe UI", Roboto, sans-serif;
 }
 
-/* --- Navbar / Header --- */
-.site-header {
-  background-color: #1b2735;
-  border-bottom: 3px solid #0078d4;
+/* ----- Main content card look ----- */
+.page__content,
+.page__meta,
+.archive__item {
+  background-color: #ffffffcc; /* slight transparency */
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  padding: 1.2rem;
+  backdrop-filter: blur(6px);
 }
 
-.site-title,
-.site-title a {
+/* ----- Header bar ----- */
+.masthead {
+  background: linear-gradient(90deg, #0078d7, #5b2c98);
+  color: #fff !important;
+}
+
+.masthead__menu-item a {
+  color: #ffffff !important;
+  font-weight: 500;
+  transition: opacity 0.3s;
+}
+.masthead__menu-item a:hover {
+  opacity: 0.7;
+}
+
+/* ----- Logo and site title ----- */
+.site-title {
   color: #ffffff !important;
   font-weight: 700;
 }
 
-.greedy-nav a {
-  color: #ffffff !important;
-}
-.greedy-nav a:hover {
-  color: #0078d4 !important;
-}
-
-/* --- Blog cards --- */
-.archive__item {
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  padding: 1.2rem;
-  margin-bottom: 1.5rem;
-  transition: all 0.3s ease;
-}
-.archive__item:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* --- Buttons --- */
-.btn,
-a.btn {
-  background: #0078d4;
-  color: white !important;
-  padding: 10px 18px;
-  border-radius: 8px;
+/* ----- Blog post title links ----- */
+.archive__item-title a {
+  color: #1e2a47;
   text-decoration: none;
-  font-weight: 600;
-  transition: all 0.3s ease;
+  transition: color 0.2s;
 }
-.btn:hover {
-  background: #005fa3;
+.archive__item-title a:hover {
+  color: #0078d7;
 }
 
-/* --- Footer --- */
-.page__footer {
-  background-color: #1b2735;
-  color: #ccc;
+/* ----- Buttons / Links ----- */
+.btn,
+.button,
+a.button {
+  background: linear-gradient(90deg, #0078d7, #5b2c98);
+  color: #fff !important;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
-.page__footer a {
-  color: #0078d4;
+.btn:hover,
+.button:hover,
+a.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+/* ----- Footer (if used) ----- */
+.site-footer {
+  background: #1e1e2f;
+  color: #bbb;
+  text-align: center;
+  padding: 1.5rem;
+  border-top: 3px solid #0078d7;
+}
+
+/* ----- Make sidebar cards transparent and soft ----- */
+.sidebar {
+  background: #ffffffb3;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* ----- Responsive fix for small screens ----- */
+@media (max-width: 768px) {
+  body {
+    background: linear-gradient(135deg, #e8f0fe, #ede7f6);
+  }
 }
