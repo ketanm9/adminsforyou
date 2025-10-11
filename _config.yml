@@ -18,7 +18,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
-
+  
+# Include custom pages
+include:
+  - _pages
+  
 # -----------------------------
 # Navigation (uses _data/navigation.yml)
 # -----------------------------
