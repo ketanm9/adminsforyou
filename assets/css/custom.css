@@ -1,0 +1,76 @@
+/* === Modern Professional Theme Override === */
+
+/* General site background */
+body {
+  background: #f8fafc;
+  color: #1f2937;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  line-height: 1.7;
+}
+
+/* Header styling */
+.site-header {
+  background: linear-gradient(90deg, #0078d4, #005a9e);
+  color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.site-title, .site-nav a {
+  color: white !important;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.site-nav a:hover {
+  color: #dbeafe !important;
+}
+
+/* Sidebar (Author info) */
+.sidebar {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Blog cards */
+.page__content h1, .archive__item-title {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.archive__item {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.archive__item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Buttons and links */
+a.btn, button, .page__content a {
+  background-color: #0078d4;
+  color: white !important;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+a.btn:hover, button:hover {
+  background-color: #005a9e;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  padding: 2rem 1rem;
+  text-align: center;
+}
