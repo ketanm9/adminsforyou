@@ -100,3 +100,4 @@ defaults:
     values:
       layout: single
       author_profile: true
+      css: "/assets/css/custom.css"
