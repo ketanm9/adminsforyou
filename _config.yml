@@ -78,6 +78,11 @@ google_analytics: G-XXXXXXXXXX
 markdown: kramdown
 kramdown:
   input: GFM
+# -----------------------------
+# CSS and Sass Settings
+# -----------------------------
+sass:
+  style: compressed
 
 # Default layouts for pages and posts
 defaults:
