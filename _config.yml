@@ -22,6 +22,7 @@ plugins:
 # Include custom pages
 include:
   - _pages
+  - _includes
   
 # -----------------------------
 # Navigation (uses _data/navigation.yml)
